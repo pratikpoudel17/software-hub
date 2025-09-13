@@ -9,7 +9,7 @@ export const Footer = () => {
 
 
                 <div>
-                    <h2 className="text-2xl font-bold">SoftwareHub</h2>
+                    <h2 className="text-2xl font-bold">SocioHub</h2>
                     <p className="mt-3 text-sm text-gray-200">
                         A mini social media platform for developers.
                         Connect, share posts, and collaborate.
@@ -33,8 +33,8 @@ export const Footer = () => {
 
                 <div>
                     <h3 className="text-lg font-semibold mb-3">Contact</h3>
-                    <p>Email: <a href="mailto:info@softwarehub.com" className="hover:text-yellow-300">ppoudelp12@gmail.com</a></p>
-                    <p>Phone: <a href="tel:+1234567890" className="hover:text-yellow-300">+977 9867584436</a></p>
+                    <p>Email: <a href="ppoudelp12@gmail.com" className="hover:text-yellow-300">ppoudelp12@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+977-9867584436" className="hover:text-yellow-300">+977 9867584436</a></p>
 
                     <div className="flex space-x-4 mt-4">
                         <a href="https://facebook.com" target="_blank" rel="noreferrer" className="hover:text-yellow-300">
@@ -51,11 +51,6 @@ export const Footer = () => {
                         </a>
                     </div>
                 </div>
-            </div>
-
-
-            <div className="text-center bg-amber-800 py-3 text-sm">
-                © {new Date().getFullYear()} SoftwareHub. All rights reserved.
             </div>
         </footer>
     );

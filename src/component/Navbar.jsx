@@ -12,7 +12,7 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
       
         <Link to="/" className="text-2xl font-bold tracking-wide hover:text-yellow-300">
-          <img src="logo.png" width="40px" alt="logo" />
+          SocioHub
         </Link>
 
         <div className="hidden md:flex space-x-6">
@@ -24,7 +24,7 @@ export const Navbar = () => {
               }`
             }
           >
-            <img src="home.png" width="25px" alt="home" />
+            Home
           </NavLink>
 
           <NavLink to="/login" className={({ isActive }) =>

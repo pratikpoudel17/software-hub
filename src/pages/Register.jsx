@@ -1,43 +1,70 @@
 export const Register = () => {
     return (
-        <>
-            <div className="text-amber-700 text-4xl font-extrabold ml-125">
-                <h1>SoftwareHub</h1>
-            </div>
-            <div className="h-115 flex rounded-3xl ml-95 p-3 bg-gray-100 w-120 ">
-                <div>
-                    <h2 className="text-amber-700 font-bold ml-35">Create A New Account</h2>
-                    <hr /><br />
-                    <div className="grid grid-cols-2 gap-2">
-                        <input className="border-black border-1" type="text" placeholder="First Name" />
-                        <input className="border-black border-1 " type="text" placeholder="Last Name" />
-                    </div>
-                    <br />
-                    <p>Date of Birth</p>
-                    <div className="grid grid-cols-3 gap-2">
-                        <input className="border-black border-1" type="number" placeholder="DD" />
-                        <input className="border-black border-1" type="number" placeholder="MM" />
-                        <input className="border-black border-1" type="number" placeholder="YYYY" />
-                    </div><br />
-                    <p>Gender</p>
-                    <div className="grid grid-cols-6 gap-2">
-                        <p>Male</p><input name="gender" value="male" type="radio" />
-                        <p>Female</p><input name="gender" value="Female" type="radio" />
-                        <p>Others</p> <input name="gender" value="Others" type="radio" />
-                    </div><br />
-                    <div className="grid gap-2">
-                        <input className="border-black border-1" type="text" placeholder="Email Address or Mobile Number" />
-                        <input className="border-black border-1" type="password" placeholder="Password" />
-                        <input className="border-black border-1" type="password" placeholder="Confirm Password" /><br />
-                    </div>
-                    <div className="grid gap-2 ml-35">
-                        <button className="bg-fuchsia-700 text-white hover:bg-fuchsia-600 h-10 w-40 rounded-3xl">Sign Up</button>
-                        <p className="text-amber-700">Already have an account?</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </>
-    )
-}
+      <>
+       
+        <div className="text-amber-700 text-4xl font-extrabold ml-125 mt-5 ">
+          <h1>SocioHub</h1>
+        </div>
+  
+        <div className="flex justify-center mt-6">
+          <div className="bg-gray-100 rounded-3xl p-6  ">
+            <form>
+              <h2 className="text-amber-700 font-bold text-lg mb-4 ml-25">
+                Create A New Account
+              </h2>
+              <hr className="mb-4" />
+  
+             
+              <div className="grid grid-cols-2 gap-3 mb-3">
+                <input
+                  className="border border-black p-2 rounded"
+                  type="text"
+                  placeholder="First Name"
+                  name="firstName"
+                />
+                <input
+                  className="border border-black p-2 rounded"
+                  type="text"
+                  placeholder="Last Name"
+                  name="lastName"
+                />
+              </div>
+  
+              <div className="grid gap-3 mb-4">
+                <input
+                  className="border border-black p-2 rounded"
+                  type="text"
+                  placeholder="Email Address or Mobile Number"
+                  name="email"
+                />
+                <input
+                  className="border border-black p-2 rounded"
+                  type="password"
+                  placeholder="Password"
+                  name="password"
+                />
+                <input
+                  className="border border-black p-2 rounded"
+                  type="password"
+                  placeholder="Confirm Password"
+                  name="confirmPassword"
+                />
+              </div>
+  
+            
+              <div className="flex flex-col items-center gap-2">
+                <button
+                  type="submit"
+                  className="bg-fuchsia-700 text-white hover:bg-fuchsia-600 h-10 w-40 rounded-3xl"
+                >
+                  Sign Up
+                </button>
+                <p className="text-amber-700">Already have an account?</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </>
+    );
+  };
+  
