@@ -13,7 +13,7 @@ export const Home = () => {
     },
     {
       id: 2,
-      name: "Partik Sampang",
+      name: "Jaggu Dada",
       time: "1 day ago",
       content:
         "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
@@ -37,6 +37,8 @@ export const Home = () => {
       id: 4,
       name: "Dharmu Bhusal",
       time: "1 week ago",
+      content:
+        "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
       likes: 27,
       comments: 6,
       shares: 0,
